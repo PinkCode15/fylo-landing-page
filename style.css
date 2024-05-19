@@ -3,7 +3,28 @@ body{
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-section, .hero-section{
+    width: 90%;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.nav-section{
+    margin-bottom: 100px;
+}
+
 .nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-right{
+    width: 20%;
     display: flex;
     justify-content: space-between;
 }
@@ -14,7 +35,8 @@ body{
 }
 
 .hero-left{
-    width: 50%;
+    margin-top: 50px;
+    width: 40%;
 }
 
 .hero-right{
@@ -25,19 +47,38 @@ body{
     width: 100%;
 }
 
-.nav-section, .hero-section{
-    width: 90%;
-    max-width: 1440px;
-    margin: auto;
-}
-
 .parent{
     padding-top: 40px;
     padding-bottom: 50px;
-    /* background: url("images/bg-curve-desktop.svg"); */
 }
 
 .logo{
     width: 100px;
     object-fit: contain;
+}
+
+.hero-left h1{
+    font-size: 40px;
+    font-weight: 400, 700;
+}
+
+.hero-left p{
+    font-size: 20px;
+    font-weight: 400, 700;
+}
+
+.hero-left input{
+  width: 50%;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.hero-left button{
+    width: 30%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
 }
