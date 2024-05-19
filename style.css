@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-left{
+    width: 50%;
+}
+
+.hero-right{
+    width: 50%;
+}
+
+.hero-img{
+    width: 100%;
+}
+
+.nav-section, .hero-section{
+    width: 90%;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.parent{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    /* background: url("images/bg-curve-desktop.svg"); */
+}
+
+.logo{
+    width: 100px;
+    object-fit: contain;
+}
